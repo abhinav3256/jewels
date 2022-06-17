@@ -40,7 +40,7 @@ func route2(c *gin.Context) {
 
 	if err2 == false {
 		res := gin.H{
-			"error": "jewels is missing",
+			"error": "stones is missing",
 		}
 		c.JSON(http.StatusOK, res)
 		return
